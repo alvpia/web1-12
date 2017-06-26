@@ -1,8 +1,7 @@
 
-li.textContent
-
 for(var i=1;i<=100;1++){
  var li = document.createElement('li');
+ li.textContent=i;
  if(i%15==0){
   
    li.textContent="FizzBuzz";
