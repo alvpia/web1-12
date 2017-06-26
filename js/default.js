@@ -1,5 +1,5 @@
 
-for(var i=1;i<=100;1++){
+for(var i=1;i<=100;i++){
  var li = document.createElement('li');
  li.textContent=i;
  if(i%15==0){
